@@ -36,7 +36,7 @@ export const menu = [
         {
           id: 3,
           title: "Orders",
-          url: "/",
+          url: "/orders",
           icon: "order.svg",
         },
       ],
@@ -530,6 +530,170 @@ export const menu = [
       inStock: true,
     },
   ];
+
+  export const orders = [
+    {
+      img: "/profile.jpeg",
+      username: "Sebastian Sanchez",
+      product : 'Playstation 5 Digital Edition',
+      country : 'Colombia',
+      id: 1,
+      amount: "$250.99",
+      createdAt: "01.02.2023",
+      status : true
+    },
+    {
+      img: "https://images.pexels.com/photos/8405873/pexels-photo-8405873.jpeg?auto=compress&cs=tinysrgb&w=1600&lazy=load",
+      username: "Alejandra Gomez",
+      product: 'Xbox Series X',
+      country: 'Mexico',
+      id: 2,
+      amount: "$499.99",
+      createdAt: "02.02.2023",
+      status: false
+    },
+    {
+      img: "https://images.pexels.com/photos/8405873/pexels-photo-8405873.jpeg?auto=compress&cs=tinysrgb&w=1600&lazy=load",
+      username: "Carlos Herrera",
+      product: 'Nintendo Switch',
+      country: 'Argentina',
+      id: 3,
+      amount: "$299.99",
+      createdAt: "03.02.2023",
+      status: true
+    },
+    {
+      img: "https://images.pexels.com/photos/761977/pexels-photo-761977.jpeg?auto=compress&cs=tinysrgb&w=1600",
+      username: "Valentina Lopez",
+      product: 'Playstation 5 Disc Edition',
+      country: 'Chile',
+      id: 4,
+      amount: "$399.99",
+      createdAt: "04.02.2023",
+      status: true
+    },
+    {
+      img: "https://images.pexels.com/photos/774095/pexels-photo-774095.jpeg?auto=compress&cs=tinysrgb&w=1600",
+      username: "Diego Fernandez",
+      product: 'Xbox Series S',
+      country: 'Peru',
+      id: 5,
+      amount: "$199.99",
+      createdAt: "05.02.2023",
+      status: false
+    },
+    {
+      img: "https://images.pexels.com/photos/762020/pexels-photo-762020.jpeg?auto=compress&cs=tinysrgb&w=1600",
+      username: "Lucia Martinez",
+      product: 'Nintendo Switch Lite',
+      country: 'Uruguay',
+      id: 6,
+      amount: "$199.99",
+      createdAt: "06.02.2023",
+      status: true
+    },
+    {
+      img: "https://images.pexels.com/photos/775358/pexels-photo-775358.jpeg?auto=compress&cs=tinysrgb&w=1600",
+      username: "Miguel Castro",
+      product: 'Playstation 4 Pro',
+      country: 'Paraguay',
+      id: 7,
+      amount: "$299.99",
+      createdAt: "07.02.2023",
+      status: true
+    },
+    {
+      img: "https://images.pexels.com/photos/1587009/pexels-photo-1587009.jpeg?auto=compress&cs=tinysrgb&w=1600",
+      username: "Isabella Morales",
+      product: 'Xbox One X',
+      country: 'Venezuela',
+      id: 8,
+      amount: "$399.99",
+      createdAt: "08.02.2023",
+      status: false
+    },
+    {
+      img: "https://images.pexels.com/photos/428364/pexels-photo-428364.jpeg?auto=compress&cs=tinysrgb&w=1600",
+      username: "Santiago Ramirez",
+      product: 'Playstation 4 Slim',
+      country: 'Ecuador',
+      id: 9,
+      amount: "$199.99",
+      createdAt: "09.02.2023",
+      status: true
+    },
+    {
+      img: "https://images.pexels.com/photos/1043474/pexels-photo-1043474.jpeg?auto=compress&cs=tinysrgb&w=1600",
+      username: "Camila Ruiz",
+      product: 'Nintendo Switch OLED',
+      country: 'Bolivia',
+      id: 10,
+      amount: "$349.99",
+      createdAt: "10.02.2023",
+      status: true
+    },
+    {
+      img: "",
+      username: "Juan Torres",
+      product: 'Playstation 3',
+      country: 'Panama',
+      id: 11,
+      amount: "$99.99",
+      createdAt: "11.02.2023",
+      status: false
+    },
+    {
+      img: "",
+      username: "Maria Diaz",
+      product: 'Xbox 360',
+      country: 'Honduras',
+      id: 12,
+      amount: "$89.99",
+      createdAt: "12.02.2023",
+      status: true
+    },
+    {
+      img: "",
+      username: "Jose Gutierrez",
+      product: 'Playstation Vita',
+      country: 'Guatemala',
+      id: 13,
+      amount: "$129.99",
+      createdAt: "13.02.2023",
+      status: true
+    },
+    {
+      img: "",
+      username: "Ana Alvarez",
+      product: 'Nintendo 3DS',
+      country: 'El Salvador',
+      id: 14,
+      amount: "$149.99",
+      createdAt: "14.02.2023",
+      status: false
+    },
+    {
+      img: "",
+      username: "Roberto Mendoza",
+      product: 'Xbox One S',
+      country: 'Nicaragua',
+      id: 15,
+      amount: "$249.99",
+      createdAt: "15.02.2023",
+      status: true
+    },
+    {
+      img: "",
+      username: "Laura Perez",
+      product: 'Playstation 2',
+      country: 'Costa Rica',
+      id: 16,
+      amount: "$49.99",
+      createdAt: "16.02.2023",
+      status: false
+    }
+  ]
+  
   
   
   

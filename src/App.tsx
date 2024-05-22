@@ -12,6 +12,7 @@ import Login from "./pages/login/Login";
 import './styles/global.scss'
 import User from "./pages/user/User";
 import Product from "./pages/product/Product";
+import Order from "./pages/orders/Order";
 
 function App() {
 
@@ -53,6 +54,10 @@ function App() {
         {
           path: "/products",
           element: <Products/>
+        },
+        {
+          path: "/orders",
+          element: <Order/>
         },
         {
           path: "/users/:id",

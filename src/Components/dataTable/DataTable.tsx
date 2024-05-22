@@ -11,7 +11,7 @@ type Props = {
 
 const handleDelete = (id:number) => {
 
-    console.log(id)
+    console.log(`YOU REALLY DELETE ?, HERE HIS ID ${id}`)
 }
 
 const DataTable = (props: Props) => {
@@ -43,7 +43,7 @@ const DataTable = (props: Props) => {
         <DataGrid
             className='dataGrid'
             rows={props.rows}
-            columns={[...props.columns,actionColumn]}
+            columns={props.slug != 'no' ? [...props.columns,actionColumn] : props.columns}
             initialState={{
             pagination: {
                 paginationModel: {

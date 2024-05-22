@@ -2,19 +2,16 @@ import Home from "./pages/home/Home"
 import {
   createBrowserRouter,
   RouterProvider,
-  Route,
-  Link,
   Outlet
 } from "react-router-dom";
 import Users from "./pages/users/Users";
 import Products from "./pages/products/Products";
 import Navbar from "./Components/navbar/Navbar";
-import Footer from "./Components/footer/Footer";
 import Menu from "./Components/menu/Menu";
 import Login from "./pages/login/Login";
 import './styles/global.scss'
-import User from "./pages/user/user";
-import Product from "./pages/product/product";
+import User from "./pages/user/User";
+import Product from "./pages/product/Product";
 
 function App() {
 

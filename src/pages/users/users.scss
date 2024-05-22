@@ -1,0 +1,20 @@
+@import '../../styles/responsive.scss';
+
+.users{
+
+  h1{
+    font-size: 20px;
+  }
+
+    .info{
+      display: flex;
+      align-items: center;
+      gap: 20px;
+      margin-bottom: 20px;
+
+      @include sm{
+        flex-direction: column;
+      }
+
+    }
+  }

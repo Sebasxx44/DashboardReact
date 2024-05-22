@@ -37,6 +37,12 @@
                     display: none;
                 }
             }
+
+            img{
+                @include sm{
+                    width: 20px;
+                }
+            }
         }
 
     }

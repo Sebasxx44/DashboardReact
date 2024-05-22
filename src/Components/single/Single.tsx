@@ -1,6 +1,5 @@
-import { CartesianGrid, Legend, Line, LineChart, ResponsiveContainer, XAxis, YAxis } from 'recharts'
+import { Legend, Line, LineChart, ResponsiveContainer, XAxis, YAxis, Tooltip } from 'recharts'
 import './single.scss'
-import { Tooltip } from '@mui/material'
 import Button from '@mui/material/Button';
 
 type Props = {
@@ -47,6 +46,7 @@ const Single = (props : Props) => {
                 <div className='chart'>
                     <ResponsiveContainer width="100%" height="100%">
                         <LineChart
+                            dataKey={props.chart.dataKeys[0].name}
                             width={500}
                             height={300}
                             data={props.chart.data}
